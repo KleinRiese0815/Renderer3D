@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL-Fractals
+CMAKE_SOURCE_DIR = /home/jakob/dev/Renderer3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL-Fractals/build
+CMAKE_BINARY_DIR = /home/jakob/dev/Renderer3D/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles /home/jakob/dev/OpenGL-Fractals/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/Renderer3D/build/CMakeFiles /home/jakob/dev/Renderer3D/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/OpenGL-Fractals/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/Renderer3D/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -240,17 +240,17 @@ imgui/fast:
 .PHONY : imgui/fast
 
 #=============================================================================
-# Target rules for targets named openglProject
+# Target rules for targets named renderer3D
 
 # Build rule for target.
-openglProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openglProject
-.PHONY : openglProject
+renderer3D: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 renderer3D
+.PHONY : renderer3D
 
 # fast build rule for target.
-openglProject/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/openglProject.dir/build.make src/CMakeFiles/openglProject.dir/build
-.PHONY : openglProject/fast
+renderer3D/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/renderer3D.dir/build.make src/CMakeFiles/renderer3D.dir/build
+.PHONY : renderer3D/fast
 
 #=============================================================================
 # Target rules for targets named project_gui
@@ -283,8 +283,8 @@ help:
 	@echo "... glfw"
 	@echo "... glm"
 	@echo "... imgui"
-	@echo "... openglProject"
 	@echo "... project_gui"
+	@echo "... renderer3D"
 .PHONY : help
 
 

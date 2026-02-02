@@ -1,8 +1,8 @@
 src/CMakeFiles/project_gui.dir/gui/gui.cpp.o: \
- /home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp \
- /usr/include/stdc-predef.h /home/jakob/dev/OpenGL-Fractals/src/gui/gui.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
+ /home/jakob/dev/Renderer3D/src/gui/gui.cpp /usr/include/stdc-predef.h \
+ /home/jakob/dev/Renderer3D/src/gui/gui.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imgui.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \

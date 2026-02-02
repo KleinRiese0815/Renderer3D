@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jakob/dev/OpenGL-Fractals/src/gui/gui.cpp" "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o" "gcc" "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o.d"
+  "/home/jakob/dev/Renderer3D/src/gui/gui.cpp" "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o" "gcc" "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

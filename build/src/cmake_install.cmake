@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL-Fractals/src
+# Install script for directory: /home/jakob/dev/Renderer3D/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

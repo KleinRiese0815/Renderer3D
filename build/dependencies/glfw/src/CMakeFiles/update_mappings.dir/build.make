@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jakob/dev/OpenGL-Fractals
+CMAKE_SOURCE_DIR = /home/jakob/dev/Renderer3D
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakob/dev/OpenGL-Fractals/build
+CMAKE_BINARY_DIR = /home/jakob/dev/Renderer3D/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include dependencies/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.mak
 include dependencies/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 dependencies/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jakob/dev/OpenGL-Fractals/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/src && /usr/bin/cmake -P /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jakob/dev/Renderer3D/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/jakob/dev/Renderer3D/dependencies/glfw/src && /usr/bin/cmake -P /home/jakob/dev/Renderer3D/dependencies/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: dependencies/glfw/src/CMakeFiles/update_mappings
 update_mappings: dependencies/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ dependencies/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/build
 
 dependencies/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/jakob/dev/Renderer3D/build/dependencies/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/jakob/dev/OpenGL-Fractals/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/dev/OpenGL-Fractals /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/src /home/jakob/dev/OpenGL-Fractals/build /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/src /home/jakob/dev/OpenGL-Fractals/build/dependencies/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jakob/dev/Renderer3D/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jakob/dev/Renderer3D /home/jakob/dev/Renderer3D/dependencies/glfw/src /home/jakob/dev/Renderer3D/build /home/jakob/dev/Renderer3D/build/dependencies/glfw/src /home/jakob/dev/Renderer3D/build/dependencies/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : dependencies/glfw/src/CMakeFiles/update_mappings.dir/depend
 

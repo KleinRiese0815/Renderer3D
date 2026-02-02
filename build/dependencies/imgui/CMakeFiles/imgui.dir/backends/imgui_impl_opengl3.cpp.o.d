@@ -1,8 +1,8 @@
 dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.cpp \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/backends/imgui_impl_opengl3.cpp \
  /usr/include/stdc-predef.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imgui.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
@@ -17,7 +17,7 @@ dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/backends/imgui_impl_opengl3.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -36,7 +36,7 @@ dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_opengl3_loader.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/backends/imgui_impl_opengl3_loader.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,8 +1,8 @@
 dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_glfw.cpp \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/backends/imgui_impl_glfw.cpp \
  /usr/include/stdc-predef.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imgui.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/imconfig.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imgui.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
@@ -17,8 +17,8 @@ dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/imgui/backends/imgui_impl_glfw.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3.h \
+ /home/jakob/dev/Renderer3D/dependencies/imgui/backends/imgui_impl_glfw.h \
+ /home/jakob/dev/Renderer3D/dependencies/glfw/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -28,7 +28,7 @@ dependencies/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
- /home/jakob/dev/OpenGL-Fractals/dependencies/glfw/include/GLFW/glfw3native.h \
+ /home/jakob/dev/Renderer3D/dependencies/glfw/include/GLFW/glfw3native.h \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \

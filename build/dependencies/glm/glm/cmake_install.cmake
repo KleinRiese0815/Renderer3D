@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/OpenGL-Fractals/dependencies/glm/glm
+# Install script for directory: /home/jakob/dev/Renderer3D/dependencies/glm/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
