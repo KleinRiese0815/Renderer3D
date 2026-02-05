@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopengl-wrapper.a "CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.o" "CMakeFiles/opengl-wrapper.dir/Window.cpp.o" "CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.o"
+/usr/bin/ranlib libopengl-wrapper.a

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jakob/dev/Renderer3D/src -I/home/jakob/dev/Renderer3D/src/gui -I/home/jakob/dev/Renderer3D/dependencies/imgui -I/home/jakob/dev/Renderer3D/dependencies/imgui/backends -I/home/jakob/dev/Renderer3D/dependencies/glfw/include
+CXX_INCLUDES = -I/home/jakob/dev/Renderer3D/src -I/home/jakob/dev/Renderer3D/src/gui -I/home/jakob/dev/Renderer3D/src/OpenGL-Wrappers -I/home/jakob/dev/Renderer3D/dependencies/imgui -I/home/jakob/dev/Renderer3D/dependencies/imgui/backends -I/home/jakob/dev/Renderer3D/dependencies/glfw/include
 
 CXX_FLAGS = 
 

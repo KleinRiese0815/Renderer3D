@@ -92,6 +92,7 @@ renderer3D_EXTERNAL_OBJECTS =
 
 src/renderer3D: src/CMakeFiles/renderer3D.dir/main.cpp.o
 src/renderer3D: src/CMakeFiles/renderer3D.dir/build.make
+src/renderer3D: src/OpenGL-Wrapper/libopengl-wrapper.a
 src/renderer3D: dependencies/glfw/src/libglfw3.a
 src/renderer3D: dependencies/glad/libglad.a
 src/renderer3D: dependencies/glm/glm/libglm.a

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jakob/dev/Renderer3D/src
+# Install script for directory: /home/jakob/dev/Renderer3D/src/OpenGL-Wrapper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,10 +40,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/jakob/dev/Renderer3D/build/src/OpenGL-Wrapper/cmake_install.cmake")
 endif()
 

@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakob/dev/Renderer3D/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/Renderer3D/build/CMakeFiles /home/jakob/dev/Renderer3D/build/src//CMakeFiles/progress.marks
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	cd /home/jakob/dev/Renderer3D/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/Renderer3D/build/CMakeFiles /home/jakob/dev/Renderer3D/build/src/OpenGL-Wrapper//CMakeFiles/progress.marks
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenGL-Wrapper/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakob/dev/Renderer3D/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenGL-Wrapper/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,12 +148,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenGL-Wrapper/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenGL-Wrapper/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -162,42 +162,90 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/renderer3D.dir/rule:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/renderer3D.dir/rule
-.PHONY : src/CMakeFiles/renderer3D.dir/rule
+src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/rule:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/rule
+.PHONY : src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/rule
 
 # Convenience name for target.
-renderer3D: src/CMakeFiles/renderer3D.dir/rule
-.PHONY : renderer3D
+opengl-wrapper: src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/rule
+.PHONY : opengl-wrapper
 
 # fast build rule for target.
-renderer3D/fast:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/renderer3D.dir/build.make src/CMakeFiles/renderer3D.dir/build
-.PHONY : renderer3D/fast
+opengl-wrapper/fast:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build
+.PHONY : opengl-wrapper/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+GlfwEnums.o: GlfwEnums.cpp.o
+.PHONY : GlfwEnums.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/renderer3D.dir/build.make src/CMakeFiles/renderer3D.dir/main.cpp.o
-.PHONY : main.cpp.o
+GlfwEnums.cpp.o:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.o
+.PHONY : GlfwEnums.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+GlfwEnums.i: GlfwEnums.cpp.i
+.PHONY : GlfwEnums.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/renderer3D.dir/build.make src/CMakeFiles/renderer3D.dir/main.cpp.i
-.PHONY : main.cpp.i
+GlfwEnums.cpp.i:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.i
+.PHONY : GlfwEnums.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+GlfwEnums.s: GlfwEnums.cpp.s
+.PHONY : GlfwEnums.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/renderer3D.dir/build.make src/CMakeFiles/renderer3D.dir/main.cpp.s
-.PHONY : main.cpp.s
+GlfwEnums.cpp.s:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.s
+.PHONY : GlfwEnums.cpp.s
+
+Window.o: Window.cpp.o
+.PHONY : Window.o
+
+# target to build an object file
+Window.cpp.o:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/Window.cpp.o
+.PHONY : Window.cpp.o
+
+Window.i: Window.cpp.i
+.PHONY : Window.i
+
+# target to preprocess a source file
+Window.cpp.i:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/Window.cpp.i
+.PHONY : Window.cpp.i
+
+Window.s: Window.cpp.s
+.PHONY : Window.s
+
+# target to generate assembly for a file
+Window.cpp.s:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/Window.cpp.s
+.PHONY : Window.cpp.s
+
+WindowFactory.o: WindowFactory.cpp.o
+.PHONY : WindowFactory.o
+
+# target to build an object file
+WindowFactory.cpp.o:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.o
+.PHONY : WindowFactory.cpp.o
+
+WindowFactory.i: WindowFactory.cpp.i
+.PHONY : WindowFactory.i
+
+# target to preprocess a source file
+WindowFactory.cpp.i:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.i
+.PHONY : WindowFactory.cpp.i
+
+WindowFactory.s: WindowFactory.cpp.s
+.PHONY : WindowFactory.s
+
+# target to generate assembly for a file
+WindowFactory.cpp.s:
+	cd /home/jakob/dev/Renderer3D/build && $(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.s
+.PHONY : WindowFactory.cpp.s
 
 # Help Target
 help:
@@ -211,10 +259,16 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... renderer3D"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... opengl-wrapper"
+	@echo "... GlfwEnums.o"
+	@echo "... GlfwEnums.i"
+	@echo "... GlfwEnums.s"
+	@echo "... Window.o"
+	@echo "... Window.i"
+	@echo "... Window.s"
+	@echo "... WindowFactory.o"
+	@echo "... WindowFactory.i"
+	@echo "... WindowFactory.s"
 .PHONY : help
 
 
