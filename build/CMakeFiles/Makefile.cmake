@@ -22,6 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/jakob/dev/Renderer3D/dependencies/glm/glm/CMakeLists.txt"
   "/home/jakob/dev/Renderer3D/dependencies/imgui/CMakeLists.txt"
   "/home/jakob/dev/Renderer3D/src/CMakeLists.txt"
+  "/home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
@@ -80,6 +81,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "dependencies/glm/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dependencies/imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/OpenGL-Wrapper/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -91,5 +93,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "dependencies/glm/glm/CMakeFiles/glm.dir/DependInfo.cmake"
   "dependencies/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   "src/CMakeFiles/renderer3D.dir/DependInfo.cmake"
-  "src/CMakeFiles/project_gui.dir/DependInfo.cmake"
+  "src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/DependInfo.cmake"
   )

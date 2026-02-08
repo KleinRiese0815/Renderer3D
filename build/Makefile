@@ -253,17 +253,17 @@ renderer3D/fast:
 .PHONY : renderer3D/fast
 
 #=============================================================================
-# Target rules for targets named project_gui
+# Target rules for targets named opengl-wrapper
 
 # Build rule for target.
-project_gui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_gui
-.PHONY : project_gui
+opengl-wrapper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opengl-wrapper
+.PHONY : opengl-wrapper
 
 # fast build rule for target.
-project_gui/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/project_gui.dir/build.make src/CMakeFiles/project_gui.dir/build
-.PHONY : project_gui/fast
+opengl-wrapper/fast:
+	$(MAKE) $(MAKESILENT) -f src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build.make src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/build
+.PHONY : opengl-wrapper/fast
 
 # Help Target
 help:
@@ -283,7 +283,7 @@ help:
 	@echo "... glfw"
 	@echo "... glm"
 	@echo "... imgui"
-	@echo "... project_gui"
+	@echo "... opengl-wrapper"
 	@echo "... renderer3D"
 .PHONY : help
 

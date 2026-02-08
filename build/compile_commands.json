@@ -216,9 +216,21 @@
   "output": "src/CMakeFiles/renderer3D.dir/main.cpp.o"
 },
 {
-  "directory": "/home/jakob/dev/Renderer3D/build/src",
-  "command": "/usr/bin/c++  -I/home/jakob/dev/Renderer3D/src -I/home/jakob/dev/Renderer3D/src/gui -I/home/jakob/dev/Renderer3D/dependencies/imgui -I/home/jakob/dev/Renderer3D/dependencies/imgui/backends -I/home/jakob/dev/Renderer3D/dependencies/glfw/include  -o CMakeFiles/project_gui.dir/gui/gui.cpp.o -c /home/jakob/dev/Renderer3D/src/gui/gui.cpp",
-  "file": "/home/jakob/dev/Renderer3D/src/gui/gui.cpp",
-  "output": "src/CMakeFiles/project_gui.dir/gui/gui.cpp.o"
+  "directory": "/home/jakob/dev/Renderer3D/build/src/OpenGL-Wrapper",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/Renderer3D/dependencies/glfw/include -I/home/jakob/dev/Renderer3D/dependencies/glad/include -I/home/jakob/dev/Renderer3D/dependencies/glad/backends -I/home/jakob/dev/Renderer3D/dependencies/glm  -o CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.o -c /home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/GlfwEnums.cpp",
+  "file": "/home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/GlfwEnums.cpp",
+  "output": "src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/GlfwEnums.cpp.o"
+},
+{
+  "directory": "/home/jakob/dev/Renderer3D/build/src/OpenGL-Wrapper",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/Renderer3D/dependencies/glfw/include -I/home/jakob/dev/Renderer3D/dependencies/glad/include -I/home/jakob/dev/Renderer3D/dependencies/glad/backends -I/home/jakob/dev/Renderer3D/dependencies/glm  -o CMakeFiles/opengl-wrapper.dir/Window.cpp.o -c /home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/Window.cpp",
+  "file": "/home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/Window.cpp",
+  "output": "src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/Window.cpp.o"
+},
+{
+  "directory": "/home/jakob/dev/Renderer3D/build/src/OpenGL-Wrapper",
+  "command": "/usr/bin/c++  -I/home/jakob/dev/Renderer3D/dependencies/glfw/include -I/home/jakob/dev/Renderer3D/dependencies/glad/include -I/home/jakob/dev/Renderer3D/dependencies/glad/backends -I/home/jakob/dev/Renderer3D/dependencies/glm  -o CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.o -c /home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/WindowFactory.cpp",
+  "file": "/home/jakob/dev/Renderer3D/src/OpenGL-Wrapper/WindowFactory.cpp",
+  "output": "src/OpenGL-Wrapper/CMakeFiles/opengl-wrapper.dir/WindowFactory.cpp.o"
 }
 ]

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/jakob/dev/OpenGL_Base/dependencies/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/jakob/dev/OpenGL_Base/dependencies/glfw/install_manifest.txt\"")
+if (NOT EXISTS "/home/jakob/dev/Renderer3D/dependencies/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/jakob/dev/Renderer3D/dependencies/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "/home/jakob/dev/OpenGL_Base/dependencies/glfw/install_manifest.txt" files)
+file(READ "/home/jakob/dev/Renderer3D/dependencies/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
